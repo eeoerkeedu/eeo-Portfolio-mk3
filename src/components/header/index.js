@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
-// import { Link } from "react-router-dom";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Headermain = () => {
 	const [isActive, setActive] = useState("false");
@@ -31,26 +32,28 @@ const Headermain = () => {
 							<div className="menu__container p-3">
 								<ul className="the_menu">
 									<li className="menu_item ">
-										<a onClick={handleToggle} to="/" className="my-3">
+										<Link to="/" onClick={handleToggle} className="my-3">
 											Home
-										</a>
+										</Link>
 									</li>
 									<li className="menu_item">
-										<a onClick={handleToggle} to="/portfolio" className="my-3">
-											{" "}
+										<Link
+											to="/portfolio"
+											onClick={handleToggle}
+											className="my-3"
+										>
 											Portfolio
-										</a>
+										</Link>
 									</li>
 									<li className="menu_item">
-										<a onClick={handleToggle} to="/about" className="my-3">
+										<Link to="/about" onClick={handleToggle} className="my-3">
 											About
-										</a>
+										</Link>
 									</li>
 									<li className="menu_item">
-										<a onClick={handleToggle} to="/contact" className="my-3">
-											{" "}
+										<Link to="/contact" onClick={handleToggle} className="my-3">
 											Contact
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -62,22 +65,25 @@ const Headermain = () => {
 								target="_blank"
 								rel="noreferrer noopener"
 								href={"https://www.linkedin.com/in/erik-oerke-6a24bb8b/"}
+								className="socialicons"
 							>
-								LinkedIn
+								<FaLinkedin />
 							</a>
 							<a
 								target="_blank"
 								rel="noreferrer noopener"
 								href={"https://github.com/eeoerkeedu"}
+								className="socialicons"
 							>
-								Github
+								<FaGithub />
 							</a>
 							<a
 								target="_blank"
 								rel="noreferrer noopener"
 								href={"https://twitter.com/Littletzar"}
+								className="socialicons"
 							>
-								Twitter
+								<FaTwitter />
 							</a>
 						</div>
 					</div>

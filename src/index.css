@@ -5,6 +5,8 @@
 	--text-color: #1F7A8C;
 	--text-color-2: #BFDBF7;
 	--overlay-color: rgb(12 12 12 / 63%);
+	--headers-font-family: 'Quantico', sans-serif;
+	--text-font-family: 'Signika Negative',	sans-serif;
 }
 
 html,
@@ -19,7 +21,7 @@ body {
 	overflow-y: visible;
 	background-color: var(--bg-color);
 	color: var(--text-color);
-	font-family: 'Raleway', sans-serif;
+	font-family: var(--text-font-family);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	padding-top: 60px;
@@ -37,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Marcellus;
+	font-family: var(--headers-font-family);
 }
 
 a,
@@ -60,7 +62,7 @@ p {
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+	font-family: var(--headers-font-family)
 }
 
 .color_pr {

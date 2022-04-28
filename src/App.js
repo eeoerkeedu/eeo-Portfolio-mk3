@@ -1,13 +1,25 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
 import { Socialicons } from "./components/socialIcons";
 import Headermain from "./components/header";
-import "./App.css";
+import Home from "./pages/home";
 
 function App() {
 	return (
 		<div className="profile-app">
-			<Headermain />
-			<Socialicons />
+			<Router>
+				<div className="flex-column justify-flex-start min-100-vh">
+					<Headermain />
+					<Socialicons />
+					<div className="container">
+						<Routes>
+							<Route path="/" element={<Home />} />
+						</Routes>
+					</div>
+				</div>
+			</Router>
 		</div>
 	);
 }

@@ -12,6 +12,7 @@ export const Socialicons = (params) => {
 							target="_blank"
 							rel="noreferrer noopener"
 							href={"https://twitter.com/Littletzar"}
+							className="socialicons"
 						>
 							<FaTwitter />
 						</a>
@@ -23,6 +24,7 @@ export const Socialicons = (params) => {
 							target="_blank"
 							rel="noreferrer noopener"
 							href={"https://github.com/eeoerkeedu"}
+							className="socialicons"
 						>
 							<FaGithub />
 						</a>
@@ -34,6 +36,7 @@ export const Socialicons = (params) => {
 							target="_blank"
 							rel="noreferrer noopener"
 							href={"https://www.linkedin.com/in/erik-oerke-6a24bb8b/"}
+							className="socialicons"
 						>
 							<FaLinkedin />
 						</a>
