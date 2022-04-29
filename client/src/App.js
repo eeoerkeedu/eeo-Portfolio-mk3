@@ -4,7 +4,7 @@ import "./App.css";
 
 import { Socialicons } from "./components/socialIcons";
 import Headermain from "./components/header";
-import Home from "./pages/home";
+import Home from "./pages/Home/Home";
 
 function App() {
 	return (

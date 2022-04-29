@@ -28,7 +28,7 @@
 	margin: 0;
 	border: unset;
 	background: var(--primary-color);
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-family: var(--headers-font-family);
 	color: var(--text-color-2);
 	line-height: 2;
@@ -54,7 +54,7 @@
 	top: 0;
 	height: 10px;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 }
 
 .br-bottom {

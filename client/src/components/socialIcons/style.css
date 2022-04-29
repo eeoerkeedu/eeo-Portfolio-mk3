@@ -1,5 +1,6 @@
 .socialicons {
 	font-size: 1rem;
+	z-index: 3;
 }
 
 .stick_follow_icon {
@@ -9,6 +10,7 @@
 	height: 200px;
 	position: fixed;
 	margin-top: -100px;
+	
 }
 
 .stick_follow_icon ul {
@@ -18,8 +20,9 @@
 }
 
 .stick_follow_icon svg {
-	width: 1.3em;
-	height: 1.3em;
+	width: 2rem;
+	height: 2rem;
+	padding-right: 2%;
 	fill: var(--text-color)
 }
 
@@ -65,8 +68,8 @@
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: center;
-		padding: 40px 0;
 		align-items: center;
+		background-color: #1E0B11;
 	}
 
 	.stick_follow_icon p {

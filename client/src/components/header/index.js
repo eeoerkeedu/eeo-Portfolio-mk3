@@ -90,8 +90,6 @@ const Headermain = () => {
 				</div>
 			</header>
 			<div className="br-top"></div>
-
-			<div className="br-left"></div>
 		</>
 	);
 };
