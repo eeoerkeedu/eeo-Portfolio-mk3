@@ -5,6 +5,8 @@ import "./App.css";
 import { Socialicons } from "./components/socialIcons";
 import Headermain from "./components/header";
 import Home from "./pages/Home/Home";
+import Portfolio from "./pages/Portfolio/Portfolio";
+
 
 function App() {
 	return (
@@ -16,6 +18,7 @@ function App() {
 					<div className="container">
 						<Routes>
 							<Route path="/" element={<Home />} />
+							<Route path="/portfolio" element={<Portfolio />} />
 						</Routes>
 					</div>
 				</div>
