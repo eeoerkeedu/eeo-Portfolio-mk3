@@ -4,13 +4,13 @@
 }
 
 .stick_follow_icon {
-	top: 50%;
+	top: 30%;
 	left: 30px;
 	width: 20px;
 	height: 200px;
 	position: fixed;
 	margin-top: -100px;
-	
+
 }
 
 .stick_follow_icon ul {
@@ -69,7 +69,7 @@
 		flex-direction: row-reverse;
 		justify-content: center;
 		align-items: center;
-		background-color: #1E0B11;
+		background: rgba(30, 11, 17, 1)
 	}
 
 	.stick_follow_icon p {

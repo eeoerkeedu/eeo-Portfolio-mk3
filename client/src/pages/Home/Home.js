@@ -10,9 +10,9 @@ const Home = () => {
 	return (
 		<main>
 			<div>
-				<section id="home" className="home">
-					<div className="intro_sec d-block d-lg-flex align-items-center">
-						<div className="text h-100 d-lg-flex justify-content-center">
+				<section id="home" className="row home">
+					<div className="intro_sec d-block d-lg-flex align-items-center row">
+						<div className="text d-lg-flex justify-content-center">
 							<div className="align-self-center ">
 								<div className="intro mx-auto">
 									<h2 className="mb-1x">{introdata.title}</h2>
