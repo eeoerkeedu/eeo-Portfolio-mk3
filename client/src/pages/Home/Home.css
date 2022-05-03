@@ -16,37 +16,37 @@ body {
 	margin: 10%;
 }
 
-.homebtn:before,
-.homebtn:after {
+.homebtn {
+	color: white;
+	padding: 10px;
+}
+
+.homebtn::before,
+.homebtn::after {
     content: "";
-    position: absolute;
-    /* inset: -30px; */
+    position: relative;
+    inset: -30px;
     opacity: 0;
     background: 
     linear-gradient(currentColor 0 0) var(--p,0) 0,
     linear-gradient(currentColor 0 0) var(--p,0) 0,
     linear-gradient(currentColor 0 0) calc(100% - var(--p,0%)) 100%,
     linear-gradient(currentColor 0 0) calc(100% - var(--p,0%)) 100%;
-    /* background-size: 25px 3px,3px 25px; */
+    background-size: 25px 3px,3px 25px;
     background-repeat: no-repeat;
     transition: 0s .3s, opacity .3s;
 }
-.homebtn:after {
+.homebtn::after {
     --p: 100%;
 }
 .homebtn:hover:before,
 .homebtn:hover:after {
     opacity: 1;
-    /* inset: 0; */
+    inset: 0;
     transition: .4s,opacity .3s;
 }
 .homebtn:hover:after {
     transition: .4s .4s,opacity .3s .4s;
-}
-
-.homebtn {
-	color: white;
-	padding: 10px;
 }
 
 .homebtn:hover {
