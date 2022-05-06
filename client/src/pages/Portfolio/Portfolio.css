@@ -5,7 +5,7 @@
 }
 
 .project__image {
-    max-height: 75vh;
+    max-height: 80vh;
     max-width: 75vw;
     border-radius: 15px;
 }
@@ -15,7 +15,7 @@
     background-color: var(--secondary-color);
     border-radius: 15px;
     color: white;
-
+	
 }
 
 .repoBtn:hover {
@@ -24,7 +24,7 @@
     color: var(--text-color-2);
 }
 
-.repoBtn:before,
+/* .repoBtn:before,
 .repoBtn:after {
     content: "";
     position: absolute;
@@ -53,7 +53,7 @@
 
 .repoBtn:hover:after {
     transition: .4s .4s,opacity .3s .4s;
-}  
+}   */
 
 .repoBtn {
     background-color: var(--text-color-2);
@@ -67,4 +67,5 @@
 .carousel-control-next-icon {
     background-color: var(--bg-color);
     border-radius: 100px;
+	;
 }

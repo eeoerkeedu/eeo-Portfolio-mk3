@@ -21,7 +21,7 @@ body {
 	padding: 10px;
 }
 
-.homebtn::before,
+/* .homebtn::before,
 .homebtn::after {
     content: "";
     position: relative;
@@ -47,7 +47,7 @@ body {
 }
 .homebtn:hover:after {
     transition: .4s .4s,opacity .3s .4s;
-}
+} */
 
 .homebtn:hover {
 	color: var(--text-color);
