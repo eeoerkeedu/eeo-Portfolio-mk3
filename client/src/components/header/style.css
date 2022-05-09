@@ -38,7 +38,7 @@
 }
 
 .nav_ac:hover {
-	color: var(--text-color-2);
+	color: var(--text-color);
 }
 
 .br-top,
@@ -181,7 +181,7 @@
 	}
 }
 
-.the_menu .menu_item>a {
+.the_menu .menu_item a {
 	color: var(--text-color-2);
 	line-height: 1;
 	font-size: 2rem;
@@ -191,6 +191,10 @@
 	padding: 4px 0px;
 	font-family: var(--headers-font-family);
 	text-decoration: none
+}
+
+.menu_item a:hover{
+	color: var(--text-color);
 }
 
 @media (min-width: 768px) {
