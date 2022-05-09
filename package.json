@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js",
     "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "npm install",
-    "seed": "cd server && npm run seed",
+    "install": "cd client && npm install",
     "build": "cd client && npm run build"
   },
   "keywords": [],
@@ -15,7 +13,5 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^7.1.0"
-  },
-  "dependencies": {
   }
 }

@@ -11,7 +11,10 @@ const About = () => {
             <main id="about" className="container text">
                 <h2>About Me</h2>
                 <p> 
-                    Hello! If you are looking for an ambitious, attentive, and success motivaed Junior Web Developer look no further. My name is Erik and I'd love to help you with your next project.
+                    Hello! If you are looking for an ambitious, attentive, and  motivated Junior Web Developer look no further. My name is Erik and I'd love to help you with your next project.
+                    <br/>
+                    <br/>
+                    Seeking Careers, as well as Contract & Freelance work.
                 </p>
                 <ul>
                     <li className="about__List"><WiSunrise/> Desire to do better than the previous day.</li> 
