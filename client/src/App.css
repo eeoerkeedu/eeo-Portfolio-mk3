@@ -29,3 +29,8 @@
 	transform: translateY(-130%);
 	transition: all 400ms ease-out;
 }
+
+.profile-app {
+	margin: 0%;
+	padding: 0%;
+}
